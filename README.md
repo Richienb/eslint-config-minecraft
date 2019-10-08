@@ -1,3 +1,17 @@
-# eslint-config-richienb
+# eslint-config-minecraft
 
-My shared eslint configurations for different projects.
+ESLint configuration for the Minecraft bedrock scripting api.
+
+## Usage example
+
+First, run `npm install eslint-config-minecraft -D` or in yarn: `yarn add eslint-config-minecraft -D`
+
+Then setup your eslint config:
+```json
+{
+    "extends": [
+        "eslint:recommended",
+        "minecraft"
+    ]
+}
+```
