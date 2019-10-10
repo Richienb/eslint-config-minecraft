@@ -1,6 +1,7 @@
 module.exports = {
     env: {
         es2017: true,
+        browser: false
     },
     parserOptions: {
         ecmaFeatures: {
